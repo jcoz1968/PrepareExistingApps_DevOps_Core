@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flogging.Core", "Flogging.Core\Flogging.Core.csproj", "{FFA34582-FE56-422C-A45B-7C82F65E29E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloggingConsole", "FloggingConsole\FloggingConsole.csproj", "{D573ABAF-E358-4B81-9057-ED23DC8CB151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flogging.Data", "Flogging.Data\Flogging.Data.csproj", "{8BC11EBB-1668-41CE-8CDB-45CCE1F1BD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flogging.Web", "Flogging.Web\Flogging.Web.csproj", "{18EB195E-2451-4B2C-8813-7F373A62B189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloggingApi", "FloggingApi\FloggingApi.csproj", "{9641189C-330C-4F49-9557-1E2AF321D18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlogViewer", "FlogViewer\FlogViewer.csproj", "{83B8857E-3BCE-4B01-84FF-943E8C657A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA34582-FE56-422C-A45B-7C82F65E29E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA34582-FE56-422C-A45B-7C82F65E29E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA34582-FE56-422C-A45B-7C82F65E29E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA34582-FE56-422C-A45B-7C82F65E29E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D573ABAF-E358-4B81-9057-ED23DC8CB151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D573ABAF-E358-4B81-9057-ED23DC8CB151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D573ABAF-E358-4B81-9057-ED23DC8CB151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D573ABAF-E358-4B81-9057-ED23DC8CB151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC11EBB-1668-41CE-8CDB-45CCE1F1BD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC11EBB-1668-41CE-8CDB-45CCE1F1BD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC11EBB-1668-41CE-8CDB-45CCE1F1BD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC11EBB-1668-41CE-8CDB-45CCE1F1BD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EB195E-2451-4B2C-8813-7F373A62B189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EB195E-2451-4B2C-8813-7F373A62B189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EB195E-2451-4B2C-8813-7F373A62B189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EB195E-2451-4B2C-8813-7F373A62B189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9641189C-330C-4F49-9557-1E2AF321D18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9641189C-330C-4F49-9557-1E2AF321D18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9641189C-330C-4F49-9557-1E2AF321D18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9641189C-330C-4F49-9557-1E2AF321D18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B8857E-3BCE-4B01-84FF-943E8C657A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B8857E-3BCE-4B01-84FF-943E8C657A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B8857E-3BCE-4B01-84FF-943E8C657A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B8857E-3BCE-4B01-84FF-943E8C657A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

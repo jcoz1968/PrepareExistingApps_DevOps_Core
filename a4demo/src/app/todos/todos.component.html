@@ -1,0 +1,53 @@
+<h1>Hello from a Todos Component</h1>
+<div class="row" style="padding-top:20px;">
+    <div class="col-md-4">
+        <button class="btn btn-primary" (click)="getAllTodos()">Get All Todos</button>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-success" (click)="getTodo2()">Get Todo Number 2</button>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-warning" (click)="updateTodo2()">Update Todo 2</button>
+    </div>
+</div>
+
+<div class="row" style="padding-top:30px;">
+    <div class="col-md-4">
+        <div class="card">            
+            <h3 class="card-header card-primary card-inverse">All Todos</h3>            
+            <div class="card-block">
+                <div *ngIf="loadingTodos" class="alert alert-warning">Loading Todos....</div>
+                <div *ngIf="loadingAllError" class="alert alert-danger">{{loadingAllError}}</div>
+                <ul *ngFor="let t of todoList" class="list-group">
+                    <li class="list-group-item">{{t.Item}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">            
+            <h3 class="card-header card-success card-inverse">Todo Num 2</h3>            
+            <div class="card-block">
+                <div class="card">
+                    <div class="card-block" *ngIf="singleTodo">
+                        <h4 class="card-title">{{singleTodo.Id}}</h4>
+                        <p class="card-text">{{singleTodo.Item}}</p>
+                        <p class="card-text">{{singleTodo.Completed}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">            
+            <h3 class="card-header card-warning card-inverse">All Todos</h3>            
+            <div class="card-block">
+                <input [(ngModel)]="newTodoText"/>   
+                <div *ngIf="updatedMessage" class="alert alert-success">{{updatedMessage}}</div>             
+                <div *ngIf="failedMessage" class="alert alert-danger">{{failedMessage}}</div>
+            </div>
+        </div>
+    </div>
+</div>
